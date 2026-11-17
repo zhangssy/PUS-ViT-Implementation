@@ -19,8 +19,8 @@ The topic vector is the softmax of the last linear layer in `feature_to_topic`, 
 
 | Dataset | Fusion checkpoint | Stage-1 topic checkpoint |
 | --- | --- | --- |
-| Barnaul | `Barnaul/model/fusion_model_best_99.78.pth` | `Barnaul/model/pgcl_model_best_99.90.pth` |
-| Oberpfaffenhofen | `Ober/model/fusion_model_best_99.98.pth` | `Ober/model/pgcl_model_best_99.98.pth` |
+| Barnaul | `Barnaul/model/fusion_model_best.pth` | `Barnaul/model/pgcl_model_best.pth` |
+| Oberpfaffenhofen | `Ober/model/fusion_model_best.pth` | `Ober/model/pgcl_model_best.pth` |
 
 The saved matrices are `Barnaul/metric1_topic_scattering_corr.csv` and `Ober/topic_quantity_corr.csv`. Cells with absolute value at least 0.12 are annotated to two decimals in the PDF, which is why \(r(T_6,P_D)=-0.4159\) appears as \(-0.42\).
 
